@@ -1,8 +1,25 @@
 aid: dots
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/dots.png
 name: Dots
-description: 'Dots is a company surfaced as a portfolio company of northzone, slow-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Dots is a mobile games studio founded in 2013 by Paul Murphy and Patrick Moberg,
+  known for minimalist, calming puzzle games including Dots, Two Dots, and Dots & Co. The studio
+  focused on well-designed, easy-to-approach games and player-friendly monetization, measuring
+  success by how players feel rather than aggressive in-app spending. Backed by Northzone, Slow
+  Ventures, Tencent, Greycroft, and CrunchFund, Dots was acquired by Take-Two Interactive in
+  August 2020. This is a consumer gaming company with no public developer API surface; it was
+  added to the API Evangelist network as a VC-portfolio stub and this enrichment pass confirmed
+  it exposes no API, SDK, or documentation.'
 url: https://raw.githubusercontent.com/api-evangelist/dots/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +28,24 @@ x-backed-by:
 - slow-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: take-two-interactive
+x-acquired-date: '2020-08'
+x-founded: '2013'
+x-note: 'No public API. Distinct from the payouts-API company Dots (usedots.com / dots.dev), which
+  is a separate, unrelated entity backed by DCM and Y Combinator. www.dots.co and weplaydots.com no
+  longer resolve to live sites following the Take-Two acquisition.'
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Consumer
+- Mobile Games
+- Gaming
+- Puzzle Games
+- Game Studio
+- Acquired
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -26,3 +55,10 @@ maintainers:
 common:
 - type: Website
   url: https://www.dots.co
+- type: Blog
+  url: https://blog.weplaydots.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
