@@ -35,7 +35,7 @@ x-founded: '2013'
 x-note: 'No public API. Distinct from the payouts-API company Dots (usedots.com / dots.dev), which
   is a separate, unrelated entity backed by DCM and Y Combinator. www.dots.co and weplaydots.com no
   longer resolve to live sites following the Take-Two acquisition.'
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 tags:
